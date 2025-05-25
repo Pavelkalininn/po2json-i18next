@@ -1,0 +1,21 @@
+{
+  "name": "po2json-i18next",
+  "version": "1.0.0",
+  "description": "Convert Django .po files to i18next-compatible JSON",
+  "bin": {
+    "po2json-i18next": "./bin/po2json-i18next.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+   "homepage": "https://github.com/Pavelkalininn/po2json-i18next",
+  "repository": "https://github.com/Pavelkalininn/po2json-i18next",
+  "keywords": ["i18n", "i18next", "django", "po", "json"],
+  "author": "Pavel Kalinin",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
